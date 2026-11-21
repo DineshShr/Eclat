@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Éclat Unisex Salon · Jagmohan Nagar, Bhubaneswar</title>
+<meta name="description" content="Éclat Unisex Salon on ITER College Road, Jagmohan Nagar, Bhubaneswar. Hair, skin, threading, massage, makeup and kids' haircuts. Open every day, 10 AM to 9:30 PM.">
+<meta property="og:title" content="Éclat Unisex Salon, Bhubaneswar">
+<meta property="og:description" content="Hair, skin, threading, massage and makeup for everyone. Open daily 10 AM – 9:30 PM on ITER College Road.">
+<meta name="theme-color" content="#0E3B3C">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%230E3B3C'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' text-anchor='middle' fill='%23F4D6CF'%3EÉ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BeautySalon","name":"Éclat Unisex Salon","telephone":"+91 99377 11992",
+"address":{"@type":"PostalAddress","streetAddress":"Plot No. 98, ITER College Rd, near Food Square, Jagmohan Nagar","addressLocality":"Bhubaneswar","addressRegion":"Odisha","postalCode":"751020","addressCountry":"IN"},
+"geo":{"@type":"GeoCoordinates","latitude":20.2544082,"longitude":85.8015734},
+"openingHours":"Mo-Su 10:00-21:30"}
+</script>
+<style>
+:root{
+  --teal:#0E3B3C;      /* deep mirror-teal */
+  --teal-2:#165254;
+  --blush:#F4D6CF;     /* skin-warm blush */
+  --gold:#E3A63B;      /* marigold */
+  --paper:#FBF8F6;
+  --ink:#1B2324;
+  --muted:#5C6B6B;
+  --line:rgba(14,59,60,.16);
+  --serif:"Bodoni Moda", "Didot", Georgia, serif;
+  --sans:"Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wrap:min(1180px, 100% - 3rem);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);font-weight:400;font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,svg{display:block}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{width:var(--wrap);margin-inline:auto}
+
+/* ---------- nav ---------- */
+.nav{position:fixed;inset:0 0 auto;z-index:50;transition:background .3s, box-shadow .3s}
+.nav.scrolled{background:rgba(14,59,60,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 rgba(255,255,255,.08)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{font-family:var(--serif);font-size:1.6rem;color:var(--blush);text-decoration:none;letter-spacing:.01em}
+.nav ul{display:flex;gap:2rem;list-style:none;align-items:center}
+.nav ul a{color:#E9EFEE;text-decoration:none;font-size:.95rem}
+.nav ul a:hover{color:var(--blush)}
+.btn{display:inline-flex;align-items:center;gap:.55rem;font:500 .98rem/1 var(--sans);padding:.95rem 1.4rem;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .2s, background .2s}
+.btn:active{transform:scale(.97)}
+.btn-gold{background:var(--gold);color:var(--teal)}
+.btn-gold:hover{background:#EDB552}
+.btn-ghost{color:var(--blush);box-shadow:inset 0 0 0 1px rgba(244,214,207,.45)}
+.btn-ghost:hover{background:rgba(244,214,207,.1)}
+.nav .btn{padding:.7rem 1.1rem}
+.menu-toggle{display:none;background:none;border:0;color:var(--blush);font-size:1.6rem;cursor:pointer}
+
+/* ---------- hero ---------- */
+.hero{position:relative;min-height:100svh;background:var(--teal);color:#E9EFEE;overflow:hidden;display:grid;align-items:center;padding:110px 0 60px}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(4.5rem, 13vw, 11rem);line-height:.85;letter-spacing:-.02em;color:var(--blush)}
+.hero h1 .sub{display:block;font-family:var(--sans);font-weight:300;font-size:clamp(1rem,1.6vw,1.25rem);letter-spacing:.02em;color:#BFD1CF;margin-top:1.2rem;line-height:1.4}
+.hero p.lede{max-width:34ch;font-size:1.2rem;font-weight:300;margin:2rem 0 2.2rem;color:#DCE6E5}
+.hero .ctas{display:flex;gap:.8rem;flex-wrap:wrap}
+.status{display:inline-flex;align-items:center;gap:.6rem;margin-top:2.2rem;font-size:.95rem;color:#BFD1CF}
+.dot{width:9px;height:9px;border-radius:50%;background:#7BD88F;box-shadow:0 0 0 4px rgba(123,216,143,.18)}
+.dot.closed{background:#E58C7A;box-shadow:0 0 0 4px rgba(229,140,122,.18)}
+
+/* The mirror: the one memorable element */
+.mirror-stage{position:relative;justify-self:center;width:min(460px, 80vw);aspect-ratio:3/4}
+.mirror{position:absolute;inset:0;border-radius:50% 50% 46% 46% / 40% 40% 60% 60%;
+  background:radial-gradient(circle at var(--mx,35%) var(--my,30%), rgba(255,255,255,.55), rgba(244,214,207,.25) 18%, rgba(22,82,84,.0) 45%),
+             linear-gradient(160deg, #2C6A6A 0%, #164C4E 45%, #0B2F30 100%);
+  box-shadow:0 0 0 10px #1A4A4B, 0 0 0 11px rgba(227,166,59,.65), 0 40px 80px rgba(0,0,0,.35), inset 0 0 60px rgba(0,0,0,.35);
+  overflow:hidden}
+.mirror::after{content:"";position:absolute;inset:-40%;background:linear-gradient(115deg, transparent 42%, rgba(255,255,255,.38) 50%, transparent 58%);transform:translateX(-70%);animation:glint 2.4s 0.6s cubic-bezier(.6,.1,.2,1) forwards}
+@keyframes glint{to{transform:translateX(70%)}}
+.mirror .mono{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--serif);font-style:italic;font-size:clamp(9rem,22vw,15rem);color:rgba(244,214,207,.18);user-select:none}
+.mirror-stage .tag{position:absolute;background:var(--paper);color:var(--teal);border-radius:14px;padding:.8rem 1rem;font-size:.9rem;box-shadow:0 18px 40px rgba(0,0,0,.25);line-height:1.3}
+.tag strong{display:block;font-family:var(--serif);font-size:1.6rem;font-weight:600;line-height:1}
+.tag.t1{left:-12%;bottom:16%}
+.tag.t2{right:-8%;top:12%;background:var(--blush)}
+.stars{color:var(--gold);letter-spacing:2px}
+.sparkle{position:absolute;color:var(--gold);opacity:0;animation:tw 3.6s infinite}
+@keyframes tw{0%,100%{opacity:0;transform:scale(.6)}50%{opacity:1;transform:scale(1)}}
+
+/* ---------- sections ---------- */
+section{padding:clamp(5rem,10vw,8rem) 0}
+h2{font-family:var(--serif);font-weight:400;font-size:clamp(2.4rem,5vw,3.8rem);line-height:1.05;letter-spacing:-.01em;color:var(--teal);max-width:16ch}
+.intro{max-width:52ch;color:var(--muted);margin-top:1.2rem;font-size:1.1rem}
+
+/* services as a salon menu card */
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:3.5rem;border-top:1px solid var(--line)}
+.menu-grid article{padding:2.2rem 2rem 2.4rem 0;border-bottom:1px solid var(--line)}
+.menu-grid article:not(:nth-child(3n+1)){padding-left:2rem;border-left:1px solid var(--line)}
+.menu-grid h3{font-family:var(--serif);font-weight:400;font-size:1.75rem;color:var(--teal);margin-bottom:.4rem}
+.menu-grid p{color:var(--muted);font-size:.98rem;margin-bottom:1rem;max-width:36ch}
+.menu-grid ul{list-style:none}
+.menu-grid li{display:flex;align-items:baseline;gap:.5rem;padding:.35rem 0;font-size:1rem}
+.menu-grid li::after{content:"";flex:1;border-bottom:1px dotted rgba(14,59,60,.3);order:1;transform:translateY(-4px)}
+.menu-grid li span{order:2;font-size:.85rem;color:var(--teal-2);white-space:nowrap}
+.menu-note{margin-top:2rem;color:var(--muted);font-size:.95rem}
+.menu-note a{color:var(--teal);font-weight:500}
+
+/* why band */
+.band{background:var(--blush);}
+.band .wrap{display:grid;grid-template-columns:1fr 1.2fr;gap:4rem;align-items:start}
+.points{display:grid;gap:2rem}
+.points div{border-left:2px solid var(--teal);padding-left:1.4rem}
+.points h3{font-family:var(--serif);font-weight:600;font-size:1.35rem;color:var(--teal);margin-bottom:.25rem}
+.points p{color:#4A4040}
+
+/* reviews */
+.reviews{background:var(--paper)}
+.score{display:flex;align-items:baseline;gap:1rem;margin-top:1.5rem}
+.score b{font-family:var(--serif);font-weight:400;font-size:5rem;line-height:1;color:var(--teal)}
+.score span{color:var(--muted)}
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;margin-top:3.5rem}
+.quotes blockquote{font-family:var(--serif);font-style:italic;font-size:1.35rem;line-height:1.4;color:var(--ink)}
+.quotes blockquote::before{content:"“";display:block;font-size:3.5rem;line-height:.6;color:var(--gold);font-style:normal;margin-bottom:.6rem}
+.quotes cite{display:block;margin-top:1rem;font:400 .9rem var(--sans);color:var(--muted)}
+
+/* booking */
+.book{background:var(--teal);color:#E9EFEE}
+.book h2{color:var(--blush)}
+.book .intro{color:#BFD1CF}
+.book .wrap{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+form{background:rgba(255,255,255,.04);border:1px solid rgba(244,214,207,.18);border-radius:22px;padding:2rem;display:grid;gap:1.1rem}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:grid;gap:.4rem;font-size:.9rem;color:#BFD1CF}
+input,select,textarea{font:inherit;font-size:1rem;color:#fff;background:rgba(0,0,0,.18);border:1px solid rgba(244,214,207,.22);border-radius:12px;padding:.8rem .9rem;width:100%}
+select option{color:#111}
+input::placeholder,textarea::placeholder{color:#89A3A1}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold)}
+form .btn{justify-content:center;width:100%;margin-top:.4rem}
+.form-hint{font-size:.85rem;color:#89A3A1}
+.err{color:#F3B2A4;font-size:.9rem;min-height:1.2em}
+.contact-lines{margin-top:2.5rem;display:grid;gap:1.4rem}
+.contact-lines a{text-decoration:none}
+.contact-lines div small{display:block;color:#89A3A1;font-size:.85rem}
+.contact-lines div strong{font-family:var(--serif);font-weight:400;font-size:1.6rem;color:#fff}
+
+/* visit */
+.visit .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:4rem;align-items:stretch}
+.hours{margin-top:2rem;width:100%;max-width:380px;border-collapse:collapse}
+.hours td{padding:.55rem 0;border-bottom:1px solid var(--line)}
+.hours td:last-child{text-align:right;color:var(--muted)}
+.hours tr.today td{color:var(--teal);font-weight:600}
+address{font-style:normal;margin-top:1.6rem;line-height:1.7}
+.map{border-radius:28px;overflow:hidden;min-height:420px;box-shadow:0 0 0 1px var(--line)}
+.map iframe{width:100%;height:100%;min-height:420px;border:0;filter:saturate(.85)}
+.visit .btn-gold{margin-top:1.8rem}
+
+footer{background:#0A2B2C;color:#89A3A1;padding:3rem 0;font-size:.92rem}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center}
+footer .brand{font-size:1.4rem}
+
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+
+/* ---------- responsive ---------- */
+@media (max-width:900px){
+  .hero .wrap,.band .wrap,.book .wrap,.visit .wrap{grid-template-columns:1fr}
+  .mirror-stage{width:min(320px,72vw);margin-top:1rem}
+  .tag.t1{left:-6%}.tag.t2{right:-4%}
+  .menu-grid{grid-template-columns:1fr 1fr}
+  .menu-grid article,.menu-grid article:not(:nth-child(3n+1)){padding:2rem 1.2rem;border-left:0}
+  .menu-grid article:nth-child(even){border-left:1px solid var(--line)}
+  .quotes{grid-template-columns:1fr}
+  .nav ul{position:fixed;inset:72px 0 auto;flex-direction:column;background:var(--teal);padding:1.5rem;gap:1.2rem;transform:translateY(-130%);transition:transform .3s}
+  .nav ul.open{transform:none}
+  .menu-toggle{display:block}
+}
+@media (max-width:560px){
+  .menu-grid{grid-template-columns:1fr}
+  .menu-grid article:nth-child(even){border-left:0}
+  .row{grid-template-columns:1fr}
+  .hero{padding-top:96px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Éclat</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" id="menuBtn">☰</button>
+    <ul id="menu">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#visit">Visit</a></li>
+      <li><a class="btn btn-gold" href="#book">Book a visit</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero" aria-label="Introduction">
+  <div class="wrap">
+    <div>
+      <h1>Éclat<span class="sub">Unisex Salon · Jagmohan Nagar, Bhubaneswar</span></h1>
+      <p class="lede">Haircuts, facials, threading, massage and makeup for women, men and little ones. Walk in on ITER College Road, walk out shining.</p>
+      <div class="ctas">
+        <a class="btn btn-gold" href="#book">Book a visit</a>
+        <a class="btn btn-ghost" href="tel:+919937711992">Call 99377 11992</a>
+      </div>
+      <div class="status" aria-live="polite"><span class="dot" id="statusDot"></span><span id="statusText">Open daily, 10 AM – 9:30 PM</span></div>
+    </div>
+
+    <div class="mirror-stage" id="mirrorStage" aria-hidden="true">
+      <div class="mirror" id="mirror"><div class="mono">É</div></div>
+      <svg class="sparkle" style="top:6%;left:14%;animation-delay:.4s" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+      <svg class="sparkle" style="bottom:30%;right:6%;animation-delay:1.6s" width="16" height="16" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+      <svg class="sparkle" style="bottom:8%;left:40%;animation-delay:2.6s" width="12" height="12" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0l2.6 9.4L24 12l-9.4 2.6L12 24l-2.6-9.4L0 12l9.4-2.6z"/></svg>
+      <div class="tag t2"><strong>5.0</strong><span class="stars">★★★★★</span><br>on Google</div>
+      <div class="tag t1"><strong>7 days</strong>a week, till 9:30 PM</div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <h2>A full menu, one chair away</h2>
+    <p class="intro">Everything from a quick brow tidy to a full bridal look. Not sure what you need? Tell us at the chair and we'll suggest what suits your hair and skin.</p>
+
+    <div class="menu-grid">
+      <article>
+        <h3>Hair</h3>
+        <p>Cuts and styling for every length and texture.</p>
+        <ul>
+          <li>Women's haircut &amp; styling<span>All lengths</span></li>
+          <li>Men's haircut &amp; beard<span>Trim · shape</span></li>
+          <li>Hair colour &amp; highlights<span>Global · streaks</span></li>
+          <li>Hair spa &amp; treatments<span>Repair · nourish</span></li>
+          <li>Blow-dry &amp; ironing<span>For occasions</span></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Skin</h3>
+        <p>Facials and clean-ups that leave you glowing.</p>
+        <ul>
+          <li>Facials<span>Glow · hydrating</span></li>
+          <li>Clean-up<span>Quick refresh</span></li>
+          <li>De-tan &amp; bleach<span>Face · body</span></li>
+          <li>Men's grooming facial<span>Oil control</span></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Beauty</h3>
+        <p>The everyday essentials, done neatly.</p>
+        <ul>
+          <li>Threading<span>Brows · face</span></li>
+          <li>Waxing<span>Full · half</span></li>
+          <li>Manicure &amp; pedicure<span>Classic · spa</span></li>
+          <li>Nail care<span>Shape · polish</span></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Massage</h3>
+        <p>Unwind after college or a long workday.</p>
+        <ul>
+          <li>Head massage<span>Oil · dry</span></li>
+          <li>Body massage<span>Relaxing</span></li>
+          <li>Foot reflexology<span>Tired feet</span></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Makeup</h3>
+        <p>From party-ready to wedding-day.</p>
+        <ul>
+          <li>Party makeup<span>Evening</span></li>
+          <li>Bridal &amp; engagement<span>Trial available</span></li>
+          <li>Saree draping &amp; hair-do<span>Occasions</span></li>
+        </ul>
+      </article>
+      <article>
+        <h3>Kids</h3>
+        <p>Gentle, patient first haircuts and trims.</p>
+        <ul>
+          <li>Baby's first haircut<span>Extra care</span></li>
+          <li>Kids' haircut<span>All ages</span></li>
+        </ul>
+      </article>
+    </div>
+    <p class="menu-note">Prices vary by hair length and product. <a href="tel:+919937711992">Call us</a> or <a href="#book">send a booking request</a> for today's rates and offers.</p>
+  </div>
+</section>
+
+<section class="band" aria-labelledby="whyTitle">
+  <div class="wrap">
+    <h2 id="whyTitle">Why the neighbourhood keeps coming back</h2>
+    <div class="points">
+      <div><h3>Spotless, every time</h3><p>Fresh towels, sanitised tools and a neat, well-kept salon floor.</p></div>
+      <div><h3>A team that listens</h3><p>We ask what you want before we pick up the scissors, and we're honest about what will suit you.</p></div>
+      <div><h3>Fair prices, near ITER</h3><p>Salon-quality service at prices that make sense for students and families in Jagmohan Nagar.</p></div>
+      <div><h3>Open late, all week</h3><p>10 AM to 9:30 PM, Sunday included, so you can come after class or work.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <h2>Rated 5.0 by our clients</h2>
+    <div class="score"><b>5.0</b><span><span class="stars">★★★★★</span><br>from 41 Google reviews</span></div>
+    <div class="quotes">
+      <blockquote>Definitely one of the best salons in Jagmohan Nagar, at affordable prices.<cite>Google review, threading, facial &amp; massage</cite></blockquote>
+      <blockquote>Baby hair cut is also done with a lot of care and patience.<cite>Google review, kids' haircut</cite></blockquote>
+      <blockquote>The salon is neat, clean, and well-maintained.<cite>Google review</cite></blockquote>
+    </div>
+  </div>
+</section>
+
+<section class="book" id="book">
+  <div class="wrap">
+    <div>
+      <h2>Book your visit</h2>
+      <p class="intro">Pick a service and a time. Your request opens in WhatsApp, ready to send, and we'll confirm your slot.</p>
+      <div class="contact-lines">
+        <a href="tel:+919937711992"><div><small>Call</small><strong>+91 99377 11992</strong></div></a>
+        <a href="https://wa.me/919937711992" target="_blank" rel="noopener"><div><small>WhatsApp</small><strong>Message us</strong></div></a>
+      </div>
+    </div>
+
+    <form id="bookForm" novalidate>
+      <div class="row">
+        <label>Your name<input name="name" autocomplete="name" placeholder="e.g. Priya" required></label>
+        <label>Phone<input name="phone" type="tel" autocomplete="tel" placeholder="10-digit mobile" required></label>
+      </div>
+      <label>Service
+        <select name="service" required>
+          <option value="">Choose a service</option>
+          <optgroup label="Hair"><option>Women's haircut</option><option>Men's haircut &amp; beard</option><option>Hair colour</option><option>Hair spa</option></optgroup>
+          <optgroup label="Skin"><option>Facial</option><option>Clean-up</option><option>De-tan</option></optgroup>
+          <optgroup label="Beauty"><option>Threading</option><option>Waxing</option><option>Manicure &amp; pedicure</option></optgroup>
+          <optgroup label="Massage"><option>Head massage</option><option>Body massage</option></optgroup>
+          <optgroup label="Makeup"><option>Party makeup</option><option>Bridal makeup</option></optgroup>
+          <optgroup label="Kids"><option>Kids' haircut</option></optgroup>
+        </select>
+      </label>
+      <div class="row">
+        <label>Date<input name="date" type="date" required></label>
+        <label>Preferred time
+          <select name="time" required>
+            <option value="">Choose a time</option>
+            <option>Morning (10 AM – 12 PM)</option><option>Afternoon (12 – 4 PM)</option><option>Evening (4 – 7 PM)</option><option>Late (7 – 9 PM)</option>
+          </select>
+        </label>
+      </div>
+      <label>Anything we should know? <textarea name="note" rows="2" placeholder="Optional"></textarea></label>
+      <p class="err" id="formErr" role="alert"></p>
+      <button class="btn btn-gold" type="submit">Send booking on WhatsApp</button>
+      <p class="form-hint">We reply during opening hours, 10 AM – 9:30 PM.</p>
+    </form>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div>
+      <h2>Find us near Food Square</h2>
+      <address>Plot No. 98, ITER College Road<br>Near Food Square, Jagmohan Nagar<br>Bhubaneswar, Odisha 751020</address>
+      <table class="hours" aria-label="Opening hours"><tbody id="hoursBody"></tbody></table>
+      <a class="btn btn-gold" href="https://www.google.com/maps/dir/?api=1&destination=20.2544082,85.8015734" target="_blank" rel="noopener">Get directions</a>
+    </div>
+    <div class="map">
+      <iframe title="Map showing Éclat Unisex Salon" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=20.2544082,85.8015734&z=16&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="brand" href="#top">Éclat</a>
+    <span>Éclat Unisex Salon · Jagmohan Nagar, Bhubaneswar · <a href="tel:+919937711992">+91 99377 11992</a></span>
+    <span>© <span id="yr"></span> Éclat Unisex Salon</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919937711992" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23.2c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.2-4-.3-.4c-1.1-1.7-1.7-3.7-1.7-5.7C5.3 9.8 10.1 5 16 5s10.7 4.8 10.7 10.6S21.9 26.2 16 26.2zm5.9-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6c.2-.2.2-.4.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.3 1.4 3.5c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.3 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>
+</a>
+
+<script>
+(function(){
+  var PHONE = "919937711992";
+  var OPEN = 10*60, CLOSE = 21*60+30; // minutes, IST
+
+  // Current time in India regardless of the visitor's timezone
+  function nowIST(){
+    var d = new Date();
+    var utc = d.getTime() + d.getTimezoneOffset()*60000;
+    return new Date(utc + 330*60000);
+  }
+
+  // Open / closed status
+  var t = nowIST(), mins = t.getHours()*60 + t.getMinutes();
+  var dot = document.getElementById('statusDot'), txt = document.getElementById('statusText');
+  if (mins >= OPEN && mins < CLOSE){
+    txt.textContent = (CLOSE - mins <= 60) ? "Open now · closing soon at 9:30 PM" : "Open now · until 9:30 PM today";
+  } else {
+    dot.classList.add('closed');
+    txt.textContent = "Closed now · opens at 10 AM";
+  }
+
+  // Hours table with today highlighted
+  var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var order = [1,2,3,4,5,6,0], body = document.getElementById('hoursBody');
+  order.forEach(function(i){
+    var tr = document.createElement('tr');
+    if (i === t.getDay()) tr.className = 'today';
+    tr.innerHTML = '<td>'+days[i]+(i===t.getDay()?' (today)':'')+'</td><td>10:00 AM – 9:30 PM</td>';
+    body.appendChild(tr);
+  });
+
+  document.getElementById('yr').textContent = t.getFullYear();
+
+  // Date input: no past dates
+  var dateIn = document.querySelector('input[name=date]');
+  var iso = t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');
+  dateIn.min = iso; dateIn.value = iso;
+
+  // Booking -> WhatsApp
+  document.getElementById('bookForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    var f = e.target, err = document.getElementById('formErr');
+    var name = f.name.value.trim(), phone = f.phone.value.replace(/\D/g,'');
+    if (!name){ err.textContent = "Add your name so we know who's coming."; f.name.focus(); return; }
+    if (phone.length < 10){ err.textContent = "Enter a 10-digit mobile number so we can confirm."; f.phone.focus(); return; }
+    if (!f.service.value){ err.textContent = "Choose a service."; f.service.focus(); return; }
+    if (!f.time.value){ err.textContent = "Choose a preferred time."; f.time.focus(); return; }
+    err.textContent = "";
+    var d = new Date(f.date.value + 'T00:00:00');
+    var nice = d.toLocaleDateString('en-IN',{weekday:'short', day:'numeric', month:'short'});
+    var msg = "Hi Éclat! I'd like to book an appointment.\n\n" +
+      "Name: " + name + "\nPhone: " + phone + "\nService: " + f.service.value +
+      "\nDate: " + nice + "\nTime: " + f.time.value +
+      (f.note.value.trim() ? "\nNote: " + f.note.value.trim() : "");
+    window.open("https://wa.me/" + PHONE + "?text=" + encodeURIComponent(msg), "_blank", "noopener");
+  });
+
+  // Nav background on scroll + mobile menu
+  var nav = document.getElementById('nav');
+  addEventListener('scroll', function(){ nav.classList.toggle('scrolled', scrollY > 40); }, {passive:true});
+  var btn = document.getElementById('menuBtn'), menu = document.getElementById('menu');
+  btn.addEventListener('click', function(){
+    var open = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+  });
+  menu.addEventListener('click', function(e){ if (e.target.tagName === 'A'){ menu.classList.remove('open'); btn.setAttribute('aria-expanded', false); }});
+
+  // Mirror light follows the pointer
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var mirror = document.getElementById('mirror');
+  if (!reduce){
+    document.querySelector('.hero').addEventListener('pointermove', function(e){
+      var r = mirror.getBoundingClientRect();
+      var x = Math.max(-20, Math.min(120, (e.clientX - r.left)/r.width*100));
+      var y = Math.max(-20, Math.min(120, (e.clientY - r.top)/r.height*100));
+      mirror.style.setProperty('--mx', x+'%');
+      mirror.style.setProperty('--my', y+'%');
+    });
+  }
+})();
+</script>
+</body>
+</html>
